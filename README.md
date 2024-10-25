@@ -1,4 +1,6 @@
+
 AI Healthcare Chatbot
+
 This AI-powered healthcare chatbot project is designed to provide preliminary health assessments based on user-inputted symptoms. Utilizing machine learning algorithms and natural language processing (NLP), the chatbot predicts possible health conditions, offers descriptions, and suggests precautionary steps. This project is intended for educational purposes and should not replace professional medical advice.
 
 Project Structure
@@ -23,28 +25,26 @@ Decision Tree Model for Diagnosis: Trained on a comprehensive dataset, this mode
 Severity and Recommendations: The chatbot provides feedback on condition severity and suggests consulting a healthcare provider if necessary.
 Text-to-Speech Output: With pyttsx3, the chatbot can vocalize its responses, improving accessibility.
 Detailed Symptom Descriptions and Precautions: Descriptions, severity ratings, and preventive measures help users understand their symptoms and take informed actions.
+
 Installation and Setup
 Clone the repository:
 
 bash
-Copy code
 git clone https://github.com/yourusername/healthcare-chatbot.git
 Navigate to the project directory:
 
 bash
-Copy code
 cd healthcare-chatbot
 Install dependencies:
 
 bash
-Copy code
 pip install -r requirements.txt
 Run the chatbot:
 
 bash
-Copy code
 python chat_bot.py
-Note: Make sure you have Python installed and the required libraries, including pandas, pyttsx3, and sklearn.
+
+Note: Make sure you have Python installed and the required libraries, including pandas, pyttsx3, and sklearn.\
 
 Usage
 Run chat_bot.py to start the chatbot.
